@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myApp02012019';
+  feature = 'recipe';
+
+  onNevigate(feature : string)
+  {
+    console.log('value'+feature);
+    
+   this.feature = feature;
+  }
 }
